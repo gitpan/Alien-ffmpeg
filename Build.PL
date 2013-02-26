@@ -26,7 +26,7 @@ my %module_build_args = (
     "Torsten Raudssus <torsten\@raudss.us>"
   ],
   "dist_name" => "Alien-ffmpeg",
-  "dist_version" => "0.004",
+  "dist_version" => "0.005",
   "license" => "perl",
   "module_name" => "Alien::ffmpeg",
   "recommends" => {},
