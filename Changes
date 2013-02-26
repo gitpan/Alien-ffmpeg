@@ -3,8 +3,14 @@ Changes from 1739-05-15 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.005 at 2013-02-26 21:10:41 +0000
+version 0.100 at 2013-02-26 22:42:05 +0000
 ------------------------------------------
+
+  Change: 1f88621f465ddaa280d9d92e4c1b14209716a9a4
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 23:34:36 +0000
+
+    Ok there is no trick to avoid the problem 
 
   Change: eb63b098b72d9144ada6100925d0c71a27580288
   Author: Torsten Raudssus <torsten@raudss.us>

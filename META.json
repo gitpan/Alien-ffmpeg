@@ -48,7 +48,7 @@
          "web" : "https://github.com/Getty/p5-alien-ffmpeg"
       }
    },
-   "version" : "0.005",
+   "version" : "0.100",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"
@@ -125,11 +125,6 @@
             "version" : "2.008"
          },
          {
-            "class" : "Dist::Zilla::Plugin::Run::AfterRelease",
-            "name" : "@Author::GETTY/Run::AfterRelease",
-            "version" : "0.017"
-         },
-         {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
             "name" : "@Author::GETTY/PkgVersion",
             "version" : "4.300030"
@@ -158,6 +153,11 @@
             "class" : "Dist::Zilla::Plugin::GithubMeta",
             "name" : "@Author::GETTY/GithubMeta",
             "version" : "0.28"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::InstallRelease",
+            "name" : "@Author::GETTY/InstallRelease",
+            "version" : "0.008"
          },
          {
             "class" : "Dist::Zilla::Plugin::Authority",
