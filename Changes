@@ -3,8 +3,26 @@ Changes from 1739-05-15 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.003 at 2013-02-26 20:46:40 +0000
+version 0.004 at 2013-02-26 21:01:37 +0000
 ------------------------------------------
+
+  Change: c47141d7d3e80c7d8f5d96208e4d7c7b0a6ed778
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 21:56:28 +0000
+
+    Dont ask... just dont ask... 
+
+  Change: 701c01483d62d96ad1c4421cb026201b2e40763f
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 21:55:32 +0000
+
+    Ok, right, i use Build not make 
+
+  Change: 3a95d82229ae3153da9a7b3d37753362f2db821a
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 21:54:36 +0000
+
+    Lets try it different 
 
   Change: bd2b90fdc7c77aae963fa474703a7af4fb1b96ca
   Author: Torsten Raudssus <torsten@raudss.us>

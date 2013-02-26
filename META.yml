@@ -22,7 +22,7 @@ requires:
 resources:
   homepage: https://github.com/Getty/p5-alien-ffmpeg
   repository: https://github.com/Getty/p5-alien-ffmpeg.git
-version: 0.003
+version: 0.004
 x_Dist_Zilla:
   perl:
     version: 5.014002
@@ -84,10 +84,6 @@ x_Dist_Zilla:
       name: '@Author::GETTY/Git::NextVersion'
       version: 2.008
     -
-      class: Dist::Zilla::Plugin::Run::AfterRelease
-      name: '@Author::GETTY/Run::AfterRelease'
-      version: 0.017
-    -
       class: Dist::Zilla::Plugin::PkgVersion
       name: '@Author::GETTY/PkgVersion'
       version: 4.300030
@@ -111,6 +107,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::GithubMeta
       name: '@Author::GETTY/GithubMeta'
       version: 0.28
+    -
+      class: Dist::Zilla::Plugin::InstallRelease
+      name: '@Author::GETTY/InstallRelease'
+      version: 0.008
     -
       class: Dist::Zilla::Plugin::Authority
       name: '@Author::GETTY/Authority'
