@@ -1,0 +1,48 @@
+==================================================
+Changes from 1739-05-15 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.002 at 2013-02-26 02:32:53 +0000
+------------------------------------------
+
+  Change: a5cbe7e544facbe7b4f8e6d4503defccbb91e461
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 03:27:53 +0000
+
+    Switched to Dist::Zilla 
+
+  Change: bdfbe989592cf70d9d660e2af835b648e5e7728e
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 00:15:46 +0000
+
+    Yeah whatever, released 0.001 with that... tagging... damn i miss
+    dzil... 
+
+  Change: 9786d6a5ded99ec6a66eaa198d8e935a0a80baaa
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 00:14:53 +0000
+
+    Better version concept 
+
+  Change: e09342bc912c7c316d565f70b9184a4f731c7b35
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-25 23:35:28 +0000
+
+    Cause bitches love tests 
+
+  Change: 2c24f7ad5ea8e1a0a597019a95c447ed246ef62c
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-25 23:34:01 +0000
+
+    Ok, thats all ;) 
+
+  Change: ed6854245340aa3f4e045653b66669c2035cffd9
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-25 22:19:26 +0000
+
+    initial commit 
+
+================
+End of releases.
+================

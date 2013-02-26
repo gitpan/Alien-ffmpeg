@@ -1,5 +1,11 @@
 Build.PL
-lib/Alien/ffmpeg.pm
-MANIFEST			This list of files
-META.yml
+Changes
+LICENSE
+MANIFEST
 META.json
+META.yml
+README
+dist.ini
+lib/Alien/ffmpeg.pm
+t/load.t
+t/release-pod-syntax.t
