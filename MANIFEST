@@ -5,6 +5,9 @@ MANIFEST
 META.json
 META.yml
 README
+bin/ffmpeg
+bin/ffprobe
+bin/ffserver
 dist.ini
 lib/Alien/ffmpeg.pm
 t/load.t

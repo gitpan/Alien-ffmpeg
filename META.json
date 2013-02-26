@@ -16,7 +16,9 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Alien::Base" : "0.002"
+            "Alien::Base" : "0.002",
+            "File::ShareDir" : "1.03",
+            "Path::Class" : "0.013"
          }
       },
       "develop" : {
@@ -26,7 +28,9 @@
       },
       "runtime" : {
          "requires" : {
-            "Alien::Base" : "0.002"
+            "Alien::Base" : "0.002",
+            "File::ShareDir" : "1.03",
+            "Path::Class" : "0.013"
          }
       },
       "test" : {
@@ -44,7 +48,7 @@
          "web" : "https://github.com/Getty/p5-alien-ffmpeg"
       }
    },
-   "version" : "0.002",
+   "version" : "0.003",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.014002"
@@ -121,6 +125,11 @@
             "version" : "2.008"
          },
          {
+            "class" : "Dist::Zilla::Plugin::Run::AfterRelease",
+            "name" : "@Author::GETTY/Run::AfterRelease",
+            "version" : "0.017"
+         },
+         {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
             "name" : "@Author::GETTY/PkgVersion",
             "version" : "4.300030"
@@ -149,11 +158,6 @@
             "class" : "Dist::Zilla::Plugin::GithubMeta",
             "name" : "@Author::GETTY/GithubMeta",
             "version" : "0.28"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::InstallRelease",
-            "name" : "@Author::GETTY/InstallRelease",
-            "version" : "0.008"
          },
          {
             "class" : "Dist::Zilla::Plugin::Authority",
@@ -209,7 +213,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Alien",
             "name" : "Alien",
-            "version" : "0.003"
+            "version" : "0.004"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",

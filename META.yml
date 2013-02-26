@@ -6,6 +6,8 @@ build_requires:
   Test::More: 0.96
 configure_requires:
   Alien::Base: 0.002
+  File::ShareDir: 1.03
+  Path::Class: 0.013
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
 license: perl
@@ -15,10 +17,12 @@ meta-spec:
 name: Alien-ffmpeg
 requires:
   Alien::Base: 0.002
+  File::ShareDir: 1.03
+  Path::Class: 0.013
 resources:
   homepage: https://github.com/Getty/p5-alien-ffmpeg
   repository: https://github.com/Getty/p5-alien-ffmpeg.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   perl:
     version: 5.014002
@@ -80,6 +84,10 @@ x_Dist_Zilla:
       name: '@Author::GETTY/Git::NextVersion'
       version: 2.008
     -
+      class: Dist::Zilla::Plugin::Run::AfterRelease
+      name: '@Author::GETTY/Run::AfterRelease'
+      version: 0.017
+    -
       class: Dist::Zilla::Plugin::PkgVersion
       name: '@Author::GETTY/PkgVersion'
       version: 4.300030
@@ -103,10 +111,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::GithubMeta
       name: '@Author::GETTY/GithubMeta'
       version: 0.28
-    -
-      class: Dist::Zilla::Plugin::InstallRelease
-      name: '@Author::GETTY/InstallRelease'
-      version: 0.008
     -
       class: Dist::Zilla::Plugin::Authority
       name: '@Author::GETTY/Authority'
@@ -150,7 +154,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Alien
       name: Alien
-      version: 0.003
+      version: 0.004
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

@@ -1,22 +1,25 @@
-package Alien::ffmpeg;
-BEGIN {
-  $Alien::ffmpeg::AUTHORITY = 'cpan:GETTY';
-}
-{
-  $Alien::ffmpeg::VERSION = '0.003';
-}
-# ABSTRACT: Easy installation of ffmpeg
+#!/usr/bin/env perl
+# PODNAME: ffmpeg
+# ABSTRACT: Command ffmpeg of Alien-ffmpeg
 
-use parent 'Alien::Base';
+$|=1;
 
-1;
+use strict;
+use warnings;
+use File::ShareDir ':ALL';
+use Path::Class;
+
+my $abs = file(dist_dir('Alien-ffmpeg'),'bin','ffmpeg')->cleanup->absolute;
+
+exec($abs, @ARGV) or print STDERR "couldn't exec ffmpeg: $!";
+
 
 __END__
 =pod
 
 =head1 NAME
 
-Alien::ffmpeg - Easy installation of ffmpeg
+ffmpeg - Command ffmpeg of Alien-ffmpeg
 
 =head1 VERSION
 

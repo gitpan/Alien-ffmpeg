@@ -3,8 +3,20 @@ Changes from 1739-05-15 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2013-02-26 02:32:53 +0000
+version 0.003 at 2013-02-26 20:46:40 +0000
 ------------------------------------------
+
+  Change: bd2b90fdc7c77aae963fa474703a7af4fb1b96ca
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 21:46:29 +0000
+
+    Hups, thats better 
+
+  Change: dfbfd39f9f33c06b2fdf86f48ee520f5dc90798a
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-02-26 21:43:31 +0000
+
+    Lets see if the faster installation way works... 
 
   Change: a5cbe7e544facbe7b4f8e6d4503defccbb91e461
   Author: Torsten Raudssus <torsten@raudss.us>
