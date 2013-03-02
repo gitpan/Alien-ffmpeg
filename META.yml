@@ -3,6 +3,7 @@ abstract: 'Easy installation of ffmpeg'
 author:
   - 'Torsten Raudssus <torsten@raudss.us>'
 build_requires:
+  Test::LoadAllModules: 0.021
   Test::More: 0.96
 configure_requires:
   Alien::Base: 0.002
@@ -22,7 +23,7 @@ requires:
 resources:
   homepage: https://github.com/Getty/p5-alien-ffmpeg
   repository: https://github.com/Getty/p5-alien-ffmpeg.git
-version: 0.100
+version: 0.101
 x_Dist_Zilla:
   perl:
     version: 5.014002
@@ -108,9 +109,13 @@ x_Dist_Zilla:
       name: '@Author::GETTY/GithubMeta'
       version: 0.28
     -
-      class: Dist::Zilla::Plugin::InstallRelease
-      name: '@Author::GETTY/InstallRelease'
-      version: 0.008
+      class: Dist::Zilla::Plugin::Alien
+      name: '@Author::GETTY/Alien'
+      version: 0.006
+    -
+      class: Dist::Zilla::Plugin::Run::Test
+      name: '@Author::GETTY/AlienInstallTestHack'
+      version: 0.018
     -
       class: Dist::Zilla::Plugin::Authority
       name: '@Author::GETTY/Authority'
@@ -125,7 +130,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Prereqs:
           phase: test
           type: requires
-      name: '@Author::GETTY/TestMoreWithSubtests'
+      name: '@Author::GETTY/TestsOfAuthorGETTY'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ChangelogFromGit
@@ -151,10 +156,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Git::Push
       name: '@Author::GETTY/@Git/Push'
       version: 2.008
-    -
-      class: Dist::Zilla::Plugin::Alien
-      name: Alien
-      version: 0.004
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

@@ -8,12 +8,13 @@ use lib qw{inc}; use Alien::Base::ModuleBuild;
 my %module_build_args = (
   "alien_name" => "ffmpeg",
   "alien_repository" => {
-    "host" => "ffmpeg.org:80",
+    "host" => "ffmpeg.org",
     "location" => "/releases",
     "pattern" => qr/(?^:^ffmpeg-([\d\.]+)\.tar\.gz$)/,
     "protocol" => "http"
   },
   "build_requires" => {
+    "Test::LoadAllModules" => "0.021",
     "Test::More" => "0.96"
   },
   "configure_requires" => {
@@ -26,7 +27,7 @@ my %module_build_args = (
     "Torsten Raudssus <torsten\@raudss.us>"
   ],
   "dist_name" => "Alien-ffmpeg",
-  "dist_version" => "0.100",
+  "dist_version" => "0.101",
   "license" => "perl",
   "module_name" => "Alien::ffmpeg",
   "recommends" => {},

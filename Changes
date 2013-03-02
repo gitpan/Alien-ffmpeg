@@ -1,10 +1,16 @@
 ==================================================
-Changes from 1739-05-15 00:00:00 +0000 to present.
+Changes from 1739-05-19 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.100 at 2013-02-26 22:42:05 +0000
+version 0.101 at 2013-03-02 20:20:38 +0000
 ------------------------------------------
+
+  Change: 0d7845722f7e0ad76ce8f2d187e7c988f186b013
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-03-02 21:20:14 +0000
+
+    Switched to author bundle alien handling 
 
   Change: 1f88621f465ddaa280d9d92e4c1b14209716a9a4
   Author: Torsten Raudssus <torsten@raudss.us>
