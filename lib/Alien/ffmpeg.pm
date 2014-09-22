@@ -2,16 +2,14 @@ package Alien::ffmpeg;
 BEGIN {
   $Alien::ffmpeg::AUTHORITY = 'cpan:GETTY';
 }
-{
-  $Alien::ffmpeg::VERSION = '0.101';
-}
 # ABSTRACT: Easy installation of ffmpeg
-
+$Alien::ffmpeg::VERSION = '0.102';
 use parent 'Alien::Base';
 
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -20,7 +18,7 @@ Alien::ffmpeg - Easy installation of ffmpeg
 
 =head1 VERSION
 
-version 0.101
+version 0.102
 
 =head1 AUTHOR
 
@@ -34,4 +32,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
