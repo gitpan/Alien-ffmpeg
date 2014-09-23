@@ -3,7 +3,7 @@ BEGIN {
   $Alien::ffmpeg::AUTHORITY = 'cpan:GETTY';
 }
 # ABSTRACT: Easy installation of ffmpeg
-$Alien::ffmpeg::VERSION = '0.102';
+$Alien::ffmpeg::VERSION = '0.103';
 use parent 'Alien::Base';
 
 1;
@@ -18,7 +18,7 @@ Alien::ffmpeg - Easy installation of ffmpeg
 
 =head1 VERSION
 
-version 0.102
+version 0.103
 
 =head1 AUTHOR
 
